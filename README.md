@@ -91,6 +91,9 @@ Plus the CEO £100 challenge: the selected titles, individual prices, total cost
 - A short delay between requests keeps the scraper polite to the server.
 - Results such as the CEO selection come from the scraped data, so they change with the number of pages scraped.
 
+##Linkedin Link
+https://lnkd.in/p/dpSGjEzv
+
 ## Author
 
 Manahil Azeem 23i-5082
