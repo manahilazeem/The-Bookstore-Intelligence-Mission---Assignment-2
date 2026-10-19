@@ -1,0 +1,120 @@
+Scraped page 1: 20 books (total 20)
+Scraped page 2: 20 books (total 40)
+Scraped page 3: 20 books (total 60)
+Scraped page 4: 20 books (total 80)
+Scraped page 5: 20 books (total 100)
+Scraped page 6: 20 books (total 120)
+Scraped page 7: 20 books (total 140)
+Scraped page 8: 20 books (total 160)
+Scraped page 9: 20 books (total 180)
+Scraped page 10: 20 books (total 200)
+Scraped page 11: 20 books (total 220)
+Scraped page 12: 20 books (total 240)
+Scraped page 13: 20 books (total 260)
+Scraped page 14: 20 books (total 280)
+Scraped page 15: 20 books (total 300)
+Scraped page 16: 20 books (total 320)
+Scraped page 17: 20 books (total 340)
+Scraped page 18: 20 books (total 360)
+Scraped page 19: 20 books (total 380)
+Scraped page 20: 20 books (total 400)
+Scraped page 21: 20 books (total 420)
+Scraped page 22: 20 books (total 440)
+Scraped page 23: 20 books (total 460)
+Scraped page 24: 20 books (total 480)
+Scraped page 25: 20 books (total 500)
+Scraped page 26: 20 books (total 520)
+Scraped page 27: 20 books (total 540)
+Scraped page 28: 20 books (total 560)
+Scraped page 29: 20 books (total 580)
+Scraped page 30: 20 books (total 600)
+Scraped page 31: 20 books (total 620)
+Scraped page 32: 20 books (total 640)
+Scraped page 33: 20 books (total 660)
+Scraped page 34: 20 books (total 680)
+Scraped page 35: 20 books (total 700)
+Scraped page 36: 20 books (total 720)
+Scraped page 37: 20 books (total 740)
+Scraped page 38: 20 books (total 760)
+Scraped page 39: 20 books (total 780)
+Scraped page 40: 20 books (total 800)
+Scraped page 41: 20 books (total 820)
+Scraped page 42: 20 books (total 840)
+Scraped page 43: 20 books (total 860)
+Scraped page 44: 20 books (total 880)
+Scraped page 45: 20 books (total 900)
+Scraped page 46: 20 books (total 920)
+Scraped page 47: 20 books (total 940)
+Scraped page 48: 20 books (total 960)
+Scraped page 49: 20 books (total 980)
+Scraped page 50: 20 books (total 1000)
+
+First rows:
+                                   Title  ...                                                URL
+0                   A Light in the Attic  ...  https://books.toscrape.com/catalogue/a-light-i...
+1                     Tipping the Velvet  ...  https://books.toscrape.com/catalogue/tipping-t...
+2                             Soumission  ...  https://books.toscrape.com/catalogue/soumissio...
+3                          Sharp Objects  ...  https://books.toscrape.com/catalogue/sharp-obj...
+4  Sapiens: A Brief History of Humankind  ...  https://books.toscrape.com/catalogue/sapiens-a...
+
+[5 rows x 5 columns]
+
+Columns: ['Title', 'Price', 'Rating', 'Availability', 'URL'] | Rows: 1000
+Title               str
+Price           float64
+Rating            int64
+Availability        str
+URL                 str
+dtype: object
+
+Saved competitor_books.csv
+
+===== INTELLIGENCE ANALYSIS =====
+1. Most expensive: The Perfect Play (Play by Play #1) (£59.99)
+2. Cheapest: An Abundance of Katherines (£10.00)
+3. Average price: £35.07
+4. Number of 5-star books: 196
+5. Percentage in stock: 100.0%
+6. Top 5 highest-rated books (ties broken by lower price):
+                                                     Title  Price  Rating
+                                An Abundance of Katherines  10.00       5
+                                      Greek Mythic History  10.23       5
+The Power Greens Cookbook: 140 Delicious Superfood Recipes  11.05       5
+                                        Dear Mr. Knightley  11.21       5
+                                       The Darkest Corners  11.33       5
+7. Cheapest 5-star book: An Abundance of Katherines (£10.00)
+
+===== BUSINESS DECISION EVIDENCE =====
+        count   mean
+Rating              
+1         226  34.56
+2         196  34.81
+3         203  34.69
+4         179  36.09
+5         196  35.37
+5-star books average £35.37 vs overall £35.07
+100.0% of titles are in stock.
+
+===== CEO CHALLENGE (budget £100.00) =====
+                                                                                  Title  Price  Rating
+                                                  Old School (Diary of a Wimpy Kid #10)  11.83       5
+                                                                   Greek Mythic History  10.23       5
+                                                                     Dear Mr. Knightley  11.21       5
+                                                                  The Origin of Species  10.01       4
+Naturally Lean: 125 Nourishing Gluten-Free, Plant-Based Recipes--All Under 300 Calories  11.38       5
+                             The Power Greens Cookbook: 140 Delicious Superfood Recipes  11.05       5
+                                                                    The Darkest Corners  11.33       5
+                                                             An Abundance of Katherines  10.00       5
+                                               Fruits Basket, Vol. 2 (Fruits Basket #2)  11.64       5
+Books chosen : 9
+Total cost   : £98.68
+Total rating : 44
+
+Books per star rating:
+Rating
+1    226
+2    196
+3    203
+4    179
+5    196
+Name: count, dtype: int64
