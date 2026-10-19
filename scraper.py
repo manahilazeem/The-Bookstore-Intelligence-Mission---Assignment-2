@@ -1,5 +1,5 @@
 """
-Assignment 2 - The Bookstore Intelligence Mission
+Assignment 2 - The Bookstore Intelligence Mission Manahil Azeem (23i5082)
 Scrapes https://books.toscrape.com/ and answers the business questions.
 
 Run:  python scraper.py
@@ -9,6 +9,7 @@ Set PAGES = 3 (required), 5 (Bonus 1) or None (Boss Level: all pages).
 """
 
 import re
+import sys
 import time
 from urllib.parse import urljoin
 
@@ -179,5 +180,25 @@ def main():
     plt.show()
 
 
+class Tee:
+    """Send everything that is printed to the screen AND to a text file."""
+
+    def __init__(self, *streams):
+        self.streams = streams
+
+    def write(self, text):
+        for s in self.streams:
+            s.write(text)
+            s.flush()
+
+    def flush(self):
+        for s in self.streams:
+            s.flush()
+
+
 if __name__ == "__main__":
-    main()
+    with open("analysis_results.txt", "w", encoding="utf-8") as report:
+        sys.stdout = Tee(sys.__stdout__, report)
+        main()
+        sys.stdout = sys.__stdout__
+    print("Analysis also saved to analysis_results.txt")
