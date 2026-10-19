@@ -93,4 +93,4 @@ Plus the CEO £100 challenge: the selected titles, individual prices, total cost
 
 ## Author
 
-**Hadi Saleemi** (22i-1043), FAST NUCES
+Manahil Azeem 23i-5082
